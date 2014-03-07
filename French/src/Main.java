@@ -1,4 +1,4 @@
-package french;
+
 
 import java.awt.*;
 import javax.swing.*;
@@ -6,16 +6,22 @@ import java.util.*;
 import java.io.*;
 
 
-public class French extends JPanel{
+public class Main extends JPanel{
     
     JFrame main;
     Container takePane;
     SpringLayout layout = new SpringLayout();
+    TextField first = new TextField();
+    TextField second = new TextField();
+    TextField third = new TextField();
+    TextField fourth = new TextField();
+    TextField fifth = new TextField();
+    
     
     public static void main(String[] args) {
         //Ha, so you actually went to GitHub and looked up the code.
         //I am proud of you sir (or ma'am)
-        French f = new French();
+        Main f = new Main();
         f.mainRun();
     }
     public void mainRun() {
