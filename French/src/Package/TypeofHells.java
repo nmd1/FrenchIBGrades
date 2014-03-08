@@ -1,5 +1,7 @@
-import java.util.*;
+package Package;
 
+import java.util.*;
+import Package.Main;
 public class TypeofHells {
     int first, second, third, fourth, fifth;
     public TypeofHells(){
